@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(224, 224, 224);
+}
+header {
+    text-align: center;
+    margin-bottom: 40px;
+ 
+}
+.cabecalho {
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+}
+.links {
+    display: inline-block;
+    margin-top: 35px;
+    transition-duration: 0.5;
+    
+}
+.links a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+.links a:hover {
+    color: rgb(34, 34, 34);
+}
+.fotoperfil {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+    box-shadow: 30px 30px 20px #888888;
+    border: 10px outset #ffffff;
+}
+.retangulocentro {
+    display: flex;
+    align-items: center;    
+    width: 800px;
+    justify-content: initial;
+    height: 750px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10%;
+    margin-left: 40%;
+    margin-top: -32%;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.textosobre {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #464646;
+}
+.retanguloescolaridade1 {
+    display: flex;
+    align-items: center;    
+    width: 700px;
+    justify-content: initial;
+    height: 600px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10%;
+    margin-left: 30%;
+    margin-top: 5%;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.textoescolaridade1 {
+    margin-top: -10%;
+    margin-left: 10%;
+    font-size: 25px;
+    color: #464646;
+}
+.retanguloexp {
+    display: flex;
+    align-items: center;    
+    width: 800px;
+    justify-content: initial;
+    height: 750px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10%;
+    margin-left: 30%;
+    margin-top: 3%;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.textoexp {
+    margin-top: -10%;
+    margin-left: 10%;
+    font-size: 25px;
+    color: #464646;
+}
+.retangulohabilidades {
+    display: flex;
+    align-items: center;    
+    width: 800px;
+    justify-content: initial;
+    height: 750px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10%;
+    margin-left: 30%;
+    margin-top: 3%;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.textomenorskill {
+    margin-left: 5%;
+    font-size: 25px;
+    color: #464646;
+}
+.retangulcont {
+    display: flex;
+    align-items: center;    
+    width: 800px;
+    justify-content: initial;
+    height: 750px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10%;
+    margin-left: 30%;
+    margin-top: 3%;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.linkedin {
+    margin-left: 30%;
+}
+.whatsaap {
+    width: 90%;
+    margin-left: 10%;
+}
